@@ -1,0 +1,25 @@
+.main__plate {
+    padding: 16px 21px;
+    border-top: 1px solid var(--gray-dark);
+}
+
+.main__textarea {
+    resize: vertical;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: inset 0 1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.main__button {
+    width: 100%;
+    background-color: var(--blue);
+    border: none;
+    padding: 12px;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 42px;
+}
