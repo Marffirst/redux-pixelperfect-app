@@ -14,14 +14,7 @@ import { Header } from './header/header';
 import  Main  from './main/main';
 
 firebase.initializeApp({
-  apiKey: "AIzaSyApIASkAArIuH0faS1s4aNj8_VpPs87xIM",
-  authDomain: "authentication-module-3f6f6.firebaseapp.com",
-  databaseURL: "https://authentication-module-3f6f6-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "authentication-module-3f6f6",
-  storageBucket: "authentication-module-3f6f6.appspot.com",
-  messagingSenderId: "588588379648",
-  appId: "1:588588379648:web:e83ae6a489f9f090a172e5",
-  measurementId: "G-5F3ERH67YQ"
+  //configure firebase here
 })
 
 const auth = firebase.auth();
